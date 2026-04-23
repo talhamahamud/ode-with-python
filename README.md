@@ -1,4 +1,3 @@
-```markdown
 # ODE Solver Playground: From Euler to Adaptive Runge-Kutta
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -42,17 +41,15 @@ By building these algorithms from scratch and rigorously testing them, this proj
 ### Butcher Tableaux Implemented
 
 **Classical RK4:**
-```
+
 0   |
 1/2 | 1/2
 1/2 | 0   1/2
 1   | 0   0   1
 ----+----------------
     | 1/6 1/3 1/3 1/6
-```
 
 **Runge-Kutta-Fehlberg 4(5):**
-```
 0     |
 1/4   | 1/4
 3/8   | 3/32        9/32
@@ -62,7 +59,6 @@ By building these algorithms from scratch and rigorously testing them, this proj
 ------+-----------------------------------------------------------
 4th   | 25/216       0           1408/2565    2197/4104   -1/5    0
 5th   | 16/135       0           6656/12825   28561/56430 -9/50   2/55
-```
 
 ---
 
@@ -150,11 +146,10 @@ cd ODE-Solver-Playground
 
 # Install dependencies
 pip install -r requirements.txt
-
+```
 # Launch Jupyter Lab
 jupyter lab
 ```
-
 ### Minimal Example
 
 ```python
